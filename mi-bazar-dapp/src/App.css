@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  /* Fondo oscuro */
+  color: #e0e0e0;
+  /* Texto claro para contraste */
+  min-height: 100vh;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.header-container {
+  background-image: url('./badulaque.jpg');
+  /* Ruta de la imagen del logo */
+  background-size: cover;
+  /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center;
+  /* Centra la imagen */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  color: white;
+  /* Para que el texto sea legible */
+  text-align: center;
+  /* Centra el contenido dentro del contenedor */
+  padding: 50px 20px;
+  /* Espaciado para hacer que se vea bien */
+  border-radius: 10px;
+  /* Opcional: para un diseño más estilizado */
+}
+
+.App-logo {
+  height: 60px;
+}
+
+.admin-panel {
+  margin-top: 30px;
+  border-top: 2px solid #444;
+  /* Color de borde más oscuro */
+  padding-top: 20px;
+}
+
+.admin-panel h2 {
+  color: #fff;
+}
+
+.admin-panel input,
+.admin-panel button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #444;
+}
+
+.admin-panel input {
+  background-color: #333;
+  color: #fff;
+}
+
+.admin-panel button {
+  background-color: #5c6bc0;
+  color: white;
+}
+
+.admin-panel button:hover {
+  background-color: #3f51b5;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.subastas,
+.skins-disponibles {
+  width: 48%;
+}
+
+.skin-card {
+  background-color: #1e1e1e;
+  /* Fondo de tarjetas oscuro */
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.skin-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #5c6bc0;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+h3,
+h4,
+h5,
+p {
+  color: #e0e0e0;
+  /* Texto claro para una mejor legibilidad */
+}
+
+input[type="file"] {
+  color: #e0e0e0;
+  /* Texto claro en el input de archivo */
+}
+
+/* Espaciado adicional entre botones de comprar y alquilar */
+.skin-card button {
+  margin-right: 10px;
+  /* Espacio entre botones */
+}
+
+.skin-card .rent-button {
+  margin-left: 10px;
+  /* Espacio en el botón de alquilar */
+}
